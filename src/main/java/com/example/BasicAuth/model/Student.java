@@ -1,7 +1,12 @@
-package com.example.BasicAuth;
+package com.example.BasicAuth.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Student{
 
+    @Id
     private int id;
     private String name;
     private int marks;
@@ -10,6 +15,10 @@ public class Student{
         this.id = id;
         this.name = name;
         this.marks = marks;
+    }
+
+    public Student() {
+
     }
 
     public int getId() {

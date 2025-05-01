@@ -1,4 +1,4 @@
-package com.example.BasicAuth;
+package com.example.BasicAuth.controller;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.web.bind.annotation.RequestMapping;
